@@ -2,43 +2,79 @@
 
 # Sumário
 
-Arquitetura de Software	2
-O que fazer para construção da Arquitetura	3
-Projeto de Interface	3
-Projeto de Dados	3
-Projeto de componentes/classes/algoritmos	3
-Princípios	3
-Artefatos	3
-Arquitetura de Software e Valores de Negócio	5
-Comportamento x Estrutura/Arquitetura	5
-Sobre os Problemas na Equipe	5
-Sobre os Padrões Arquiteturais	5
-Tipos de Padrões ou Estilos	6
-Arquitetura em camadas	6
-Cliente-Servidor	7
-MVC (Model View Controler)	8
-Camadas + MVC	9
-Repositório	10
-Duto e filtro	11
-Serviços - SOA (Arquitetura orientada a serviços)	12
-Arquitetura de Microsserviços	15
-Abordagem Tradicional de Desenvolvimento	16
-Metodologias Ágeis	16
-Princípios de Projeto	16
-Integridade Conceitual	16
-Ocultamento de Informação	17
-Coesão (alta)	17
-Acoplamento (baixo)	17
-SOLID	18
-Extra: Demeter Principle	19
-Projeto de Componentes e Classes	19
-Decisões de Projeto	20
-Padrões	21
-Características do Padrão	21
-Tipos de Padrões	22
-Padrões GRASP (General Responsibility Assignment Software Patterns)	22
-Padrões básicos	22
-Padrões avançados	24
+Arquitetura de Software
+
+O que fazer para construção da Arquitetura
+
+Projeto de Interface
+
+Projeto de Dados
+
+Projeto de componentes/classes/algoritmos
+
+Princípios
+
+Artefatos
+
+Arquitetura de Software e Valores de Negócio
+
+Comportamento x Estrutura/Arquitetura
+
+Sobre os Problemas na Equipe
+
+Sobre os Padrões Arquiteturais
+
+Tipos de Padrões ou Estilos
+
+Arquitetura em camadas
+
+Cliente-Servidor
+
+MVC (Model View Controler)
+
+Camadas + MVC
+
+Repositório	
+
+Duto e filtro	
+
+Serviços - SOA (Arquitetura orientada a serviços)	
+
+Arquitetura de Microsserviços	
+
+Abordagem Tradicional de Desenvolvimento	
+
+Metodologias Ágeis	
+
+Princípios de Projeto	
+
+Integridade Conceitual	
+
+Ocultamento de Informação	
+
+Coesão (alta)	
+
+Acoplamento (baixo)	
+
+SOLID	
+
+Extra: Demeter Principle	
+
+Projeto de Componentes e Classes	
+
+Decisões de Projeto	
+
+Padrões	
+
+Características do Padrão	
+
+Tipos de Padrões	
+
+Padrões GRASP (General Responsibility Assignment Software Patterns)	
+
+Padrões básicos	
+
+Padrões avançados	
 
 
 O que fazer para construção da Arquitetura
