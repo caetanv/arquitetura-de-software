@@ -77,24 +77,25 @@ Padrões básicos
 Padrões avançados	
 
 
-O que fazer para construção da Arquitetura
+# O que fazer para construção da Arquitetura
+
 Decompor o software em grandes blocos de funcionalidades:
 Requisitos funcionais (códigos)
 Requisitos não-funcionais (arquitetura)
 
-Projeto de Interface
+## Projeto de Interface
 Pensar como a interação do usuário cumprirá seus objetivos.
 
-Projeto de Dados
+## Projeto de Dados
 Como os dados são organizados e armazenados 
 
-Projeto de componentes/classes/algoritmos
+## Projeto de componentes/classes/algoritmos
 Como os códigos permitirão a implementação do comportamento do sistema frente às entradas/estímulos dadas pelo usuário.
 
-Princípios
+## Princípios
 Integridade Conceitual, ocultamento de informação, coesão (alta), acoplamento (baixo)
 
-Artefatos
+## Artefatos
 Arquitetura ou até projeto: Ordenar e organizar o espaço para determinada finalidade visando determinada intenção. Relacionado à organização e estrutura em um alto nível de abstração.
 Envolve:
 funcionalidade
@@ -119,8 +120,8 @@ O software foi inventado para ser um “produto” “suave”, de forma que ele
 A falta de atenção ao valor agregado pela estrutura do software é que faz com que o custo de desenvolvimento de certos produtos seja exorbitante e cresça ao longo do tempo. 
 A impressão que se tem é que, a cada nova release ou solicitação de mudança, as equipes recebem peças de um quebra-cabeça que ficam cada vez mais difíceis de encaixar. Ou, talvez, uma analogia mais interessante seja o jogo do Tetris
 
-Arquitetura de Software e Valores de Negócio
-Comportamento x Estrutura/Arquitetura
+# Arquitetura de Software e Valores de Negócio
+## Comportamento x Estrutura/Arquitetura
 ● Um programa que funciona perfeitamente, mas seja impossível (ou muito difícil de mudar), não funcionará quando as exigências mudam, o programa será inútil.
 ● Um programa que não funciona, mas seja fácil de mudar, posso fazê-lo funcionar, e posso mantê-lo funcionando à medida que as exigências mudam. Portanto, o programa permanece continuamente útil.
 É claro que um programa que não funciona como não deveria é inútil em um certo momento do tempo, e pode representar uma oportunidade de negócio perdida ou o pioneirismo em um nicho de mercado.
@@ -130,7 +131,7 @@ As gerências não são capazes de avaliar a importância da arquitetura.
 Vira responsabilidade da equipe de desenvolvimento a organização de baixo e alto nível
 Implica Tempo para cuidar do comportamento e da estrutura do produto
 
-Sobre os Padrões Arquiteturais
+## Sobre os Padrões Arquiteturais
 Princípios e regras que formam a base do software que refletem conceitos e princípios comuns
 essência da organização dos elementos
 meios de representar, partilhar e reusar conhecimento
@@ -167,7 +168,7 @@ Os serviços são descritos de forma padronizada, possuem interfaces publicadas 
 
 
 	
-Exemplo de Arquitetura de uma aplicação SaaS
+## Exemplo de Arquitetura de uma aplicação SaaS
 Arquitetura de Microsserviços
 Benefícios
 ● Agilidade
@@ -188,12 +189,12 @@ Desafios
 ● Controle de versão
 ● Conjunto de qualificações da equipe
 
-Abordagem Tradicional de Desenvolvimento
+## Abordagem Tradicional de Desenvolvimento
 Nos métodos tradicionais, o projeto da arquitetura é realizado quando os requisitos estão bem claros: up front architectural design
 Define-se antecipadamente quais componentes do sistema serão criados e como eles vão interagir entre si e com os componentes/outros sistemas que já existem.
 A arquitetura fornece o modelo sob qual o software sera desenvolvido
 
-Metodologias Ágeis
+## Metodologias Ágeis
 
 
 Ágeis : o projeto da arquitetura é mais informal e não requer tanto rigor em sua especificação e documentação inicia.
@@ -204,7 +205,7 @@ Quantas Camadas? Tecnologias? Classes e componentes e subdivisões? Qual o Fluxo
 A cada sprint feedbacks sobre a arquitetura, revisões, modificações e familiarização da equipe com o produto.
 
 
-Princípios de Projeto 
+## Princípios de Projeto 
 
 
 Integridade Conceitual 
@@ -218,7 +219,7 @@ Facilidade de entendimento. Um novo desenvolvedor
 contratado pela empresa pode ser alocado para trabalhar em algumas 
 classes apenas
 
-Coesão (alta) 
+## Coesão (alta) 
 A implementação de qualquer classe deve ser coesa, isto é, toda classe deve 
 implementar uma única funcionalidade ou serviço. Toda classe deve ter uma única responsabilidade no sistema. Uma classe deve implementar apenas um interesse.
 Vantagens:
@@ -227,13 +228,13 @@ Facilita a alocação de um único responsável por manter uma classe.
 Facilita o reúso e teste de uma classe, pois é mais simples reusar e testar uma classe coesa do que uma classe com várias responsabilidades.
 
 
-Acoplamento (baixo) 
+## Acoplamento (baixo) 
 É a força de conexão entre duas classes. Uma classe não impacta fortemente as mudanças em outra classe. Dependência estáveis indicam um acoplamento bom ou aceitável.
 
 
 
 
-SOLID
+# SOLID
 
 	● Single Responsability Principle (Princípio da Responsabilidade Única)
 Um módulo deve ter uma, e apenas uma, razão para mudar
@@ -270,7 +271,7 @@ Lei de Demétrio: “Converse com seus amigos – não fique íntimo de estranho
 Um método pode chamar métodos de sua própria classe e métodos das classes de seus atributos, mas não de outras classes
 
 
-Projeto de Componentes e Classes
+# Projeto de Componentes e Classes
 O projeto de componentes, classes e algoritmos especificam a estrutura e o  comportamento do software em um nível mais detalhado do que a arquitetura do  software
 
 ● Responsabilidades (quem faz o quê)
@@ -290,7 +291,7 @@ Com o tempo, um projeto de má qualidade fará o software se deteriorar porque v
 
 
 
-Padrões
+# Padrões
 
 ● Encapsulamento: um padrão encapsula um problema ou solução bem definida.
 ● Generalidade: deve permitir a construção de outras realizações a partir deste padrão.
@@ -298,7 +299,7 @@ Padrões
 ● Abertura: deve permitir a sua extensão para níveis mais baixos de detalhe.
 ● Combinatoriedade: os padrões são relacionados hierarquicamente. Padrões de alto nível podem ser compostos ou relacionados com padrões que endereçam problemas de nível mais baixo.
 
-Características do Padrão
+## Características do Padrão
 ● Nome: uma descrição da solução, mais do que do problema ou do contexto.
 ● Exemplo: uma ou mais figuras, diagramas ou descrições que ilustrem um protótipo de aplicação.
 ● Contexto: a descrição das situações sob as quais o padrão se aplica.
@@ -312,17 +313,17 @@ Vantagens:
 ● Padrões facilitam a geração de alternativas
 ● Padrões facilitam a comunicação
 
-Tipos de Padrões
+## Tipos de Padrões
 Padrões GRASP (General Responsibility Assignment Software Patterns)
 Os padrões GRASP fornecem uma abordagem sistemática para a atribuição de responsabilidades às classes do projeto
 
-	Responsabilidades
+### Responsabilidades
 ● De conhecimento: sobre dados privativos e encapsulados; sobre objetos 
 relacionados; sobre coisas que pode calcular ou derivar.
 ● De realização: fazer alguma coisa em si mesmo; iniciar uma ação em outro 
 objeto; controlar e coordenar atividades em outros objetos
 
-Padrões básicos
+### Padrões básicos
 ● Criador ( Creator) : Quem deve ser responsável por criar uma nova instância de uma classe?
 
 
@@ -359,7 +360,7 @@ domínio, ou duplica informações existentes em outros lugares
 
 
 
-Padrões avançados
+### Padrões avançados
 ● Polimorfismo (Polymorphism)
 ● Fábrica pura (Pure Fabrication)
 ● Indireção (Indirection)
